@@ -1,0 +1,120 @@
+
+.first-section{
+    display: flex;
+    flex-direction: row;
+}
+.slider-container{
+    
+    margin-bottom: 20px;
+}
+
+.banner1{
+    background-image: url("https://res.cloudinary.com/df4rsezuj/image/upload/v1667716618/e42c8596-641a-4d1a-8da1-cbe0ea66f320_fsagov.jpg");
+    height: 40vh;
+    margin:20px;
+    border-radius: 15px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    
+    
+}
+
+.banner2{
+    background-image: url("https://a0.muscache.com/im/pictures/58819d01-2a71-441d-b3bc-baae0cd64da1.jpg?im_w=720");
+    height: 40vh;
+    margin:20px;
+    border-radius: 15px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+
+}
+
+.banner3{
+    background-image: url("https://a0.muscache.com/im/pictures/bcbd20bb-1654-4ea2-a86c-2cf25666f3b6.jpg?im_w=720");
+    height: 40vh;
+    margin:20px;
+    border-radius: 15px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+
+}
+.banner3{
+    background-image: url("https://a0.muscache.com/im/pictures/bcbd20bb-1654-4ea2-a86c-2cf25666f3b6.jpg?im_w=720");
+    height: 40vh;
+    margin:20px;
+    border-radius: 15px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+
+}
+
+h2{
+    font-size:35px;
+    font-weight:700;
+}
+
+.heading-container{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    color: white ;
+}
+.desc{
+    color: white ;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 6px;
+    font-size: medium;
+    font-weight: 300;
+    border-radius: 5px;
+    background-color: white;
+    border-style: none;
+}
+
+button:hover{
+    background-color: transparent;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    
+}
+.button{
+    border-radius: 10px;
+    border-style: solid;
+    background-color: white;
+    font-size: small;
+    border-width: 1px;
+    margin: 10px;
+}
+
+.horizontal{
+    width: 2vw;
+    transform: rotate(90deg);
+}
+
+.button:hover{
+    background-color: burlywood;
+    color: ghostwhite;
+}

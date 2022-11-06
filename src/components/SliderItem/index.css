@@ -1,0 +1,17 @@
+items-container{
+    display: flex;
+    flex-shrink: inherit;
+}
+.items{
+    border-radius: 10px;
+    border-style: solid;
+    background-color: white;
+    font-size: small;
+    border-width: 1px;
+    margin: 10px;
+}
+
+.items:hover{
+    background-color: black;
+    color: white;
+}
